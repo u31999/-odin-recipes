@@ -92,36 +92,36 @@ export const menu = {
     main: {
         Kofta: {
             'title': 'Kofta',
-            'img': '../resources/kofta.jpg',
+            'img': './resources/kofta.jpg',
             'description' : 'Larm ipsium dollar, larm ipsum dollar, blah blah blah',
         },
         HamBurger: {
             'title': 'Ham Burger',
-            'img': '../resources/hum-burger.png',
+            'img': './resources/hum-burger.png',
             'description' : 'Larm ipsium dollar, larm ipsum dollar, blah blah blah',
         }
     },
     salad: {
         ceaser: {
             'title': 'Ceaser Salad',
-            'img': '../resources/ceaser-salad.jpg',
+            'img': './resources/ceaser-salad.jpg',
             'description' : 'Larm ipsium dollar, larm ipsum dollar, blah blah blah',
         },
         green: {
             'title': 'Green Salad',
-            'img': '../resources/green-salad.jpg',
+            'img': './resources/green-salad.jpg',
             'description' : 'Larm ipsium dollar, larm ipsum dollar, blah blah blah',
         },
     },
     deserts: {
         choklateCake: {
             'title': 'Chocklate Cake',
-            'img': '../resources/choclate-cake.jpg',
+            'img': './resources/choclate-cake.jpg',
             'description' : 'Larm ipsium dollar, larm ipsum dollar, blah blah blah',
         },
         cinnamonRolls: {
             'title': 'Cinnamon Rolls',
-            'img': '../resources/cinnamon-rolls.jpg',
+            'img': './resources/cinnamon-rolls.jpg',
             'description' : 'Larm ipsium dollar, larm ipsum dollar, blah blah blah',
         },
     },
