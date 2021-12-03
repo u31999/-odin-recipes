@@ -1,7 +1,6 @@
 import {classMenu, menu} from "./menuClass.js";
 import {appendAndReturnQuery, createDiv} from "./creatDomElement.js";
 import {linkConverter, remove, navBehaiver} from "./domBehavier.js";
-import img from '../src/resources/dish.png';
 
   
   
@@ -70,7 +69,7 @@ const homeFocus = (leftContent) => {
     const img = (() => {
         let image = document.body.append(document.createElement('img'));
         image = document.querySelector('img');
-        image.setAttribute('src', '../src/resources/dish.png');
+        image.setAttribute('src', '../dist/resources/dish.png');
         image.setAttribute('alt', 'dish-img');
 
         return document.querySelector('img[alt=dish-img]');
@@ -210,15 +209,15 @@ const menuFocus = (leftContent) => {
 
     allOption.forEach(o => {
         if (o.classList.contains('desert')) {
-            o.querySelector('.img-div img').src = '../src/resources/deserts.jpg';
+            o.querySelector('.img-div img').src = '../dist/resources/deserts.jpg';
             o.querySelector('.text-div a').innerText = 'Deserts';
         } else if (o.classList.contains('main')) {
-            o.querySelector('.img-div img').src = '../src/resources/shish-taouk.jpg';
+            o.querySelector('.img-div img').src = '../dist/resources/shish-taouk.jpg';
             o.querySelector('.text-div a').innerText = 'Main';
 
 
         } else if (o.classList.contains('salad')) {
-            o.querySelector('.img-div img').src = '../src/resources/salad.jpg';
+            o.querySelector('.img-div img').src = '../dist/resources/salad.jpg';
             o.querySelector('.text-div a').innerText = 'Salad';
         };
     });
